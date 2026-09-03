@@ -1,6 +1,88 @@
+@font-face {
+  font-family: 'Inter-VariableFont'; 
+  src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('woff2'), /* Path to your font file */
+       url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
+    font-family: 'Inter-VariableFont';
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+h1 {
+    font-size: 24px;
+    color: white
+}
+
+h2 {
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+p {
+    color: white;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 8%);
+    padding: 25px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 30px;
+    margin: 25px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap-mode: nowrap;
+    gap: 25px;
+}
+
+.image-circle {
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+}
+
+.profile-headers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
 
